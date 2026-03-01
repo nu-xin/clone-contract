@@ -10,7 +10,7 @@
   "scripts": {
     "build": "node scripts/extract-chains.js",
     "prepublishOnly": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/clone.test.js"
   },
   "keywords": [
     "clone",
